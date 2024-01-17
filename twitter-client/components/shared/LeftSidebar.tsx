@@ -21,7 +21,7 @@ const LeftSidebar = () => {
           ))}
         </ul>
         <div className='px-6 mt-4'>
-          <button className=' text-lg font-bold cursor-pointer hover:bg-sky-400 bg-[#1d9bf0] text-white px-4 py-2 w-full rounded-full '>
+          <button className=' text-lg font-bold cursor-pointer hover:bg-[rgb(26,140,216)] bg-[#1d9bf0] text-white px-4 py-2 w-full rounded-full '>
             Post
           </button>
         </div>
