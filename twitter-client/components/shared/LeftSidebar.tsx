@@ -12,7 +12,7 @@ const LeftSidebar = () => {
         <ul>
           {sidebarMenuItems.map((item) => (
             <li
-              className='flex justify-start items-center gap-2 hover:bg-slate-600 rounded-full w-fit px-4 py-2 !cursor-pointer transition-all ease-in mt-5'
+              className='flex justify-start items-center gap-4 hover:bg-slate-600 rounded-full w-fit px-4 py-2 !cursor-pointer transition-all ease-in mt-5'
               key={item.title}
             >
               <span>{item.icon}</span>
