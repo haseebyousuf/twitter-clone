@@ -1,7 +1,8 @@
 import { TwitterSidebarButton } from '@/types';
 import React from 'react';
-import { BiHash, BiHomeCircle, BiUser } from 'react-icons/bi';
-import { BsBell, BsBookmark, BsEnvelope, BsTwitter } from 'react-icons/bs';
+import { BiHomeCircle, BiUser } from 'react-icons/bi';
+import { BsBell, BsBookmark, BsEnvelope } from 'react-icons/bs';
+import { CiSearch } from 'react-icons/ci';
 // interface TwitterSidebarButton {
 //   title: string;
 //   icon: React.ReactNode;
@@ -9,11 +10,11 @@ import { BsBell, BsBookmark, BsEnvelope, BsTwitter } from 'react-icons/bs';
 export const sidebarMenuItems: TwitterSidebarButton[] = [
   {
     title: 'Home',
-    icon: <BiHomeCircle />,
+    icon: <BiHomeCircle className='font-bold' />,
   },
   {
     title: 'Explore',
-    icon: <BiHash />,
+    icon: <CiSearch />,
   },
   {
     title: 'Notification',
