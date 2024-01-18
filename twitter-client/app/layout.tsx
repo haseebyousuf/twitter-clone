@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang='en'>
+    <html lang='en' className='scroll-smooth'>
       <body className={`${inter.variable} `}>
         {/* {children} */}
         <div className='grid grid-cols-12 h-screen w-screen px-20'>
