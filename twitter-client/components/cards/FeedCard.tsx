@@ -6,7 +6,7 @@ import { FaRetweet } from 'react-icons/fa';
 
 const FeedCard: React.FC = () => {
   return (
-    <div className='border-t-[0.3px] border-gray-600 py-3 px-6  hover:bg-slate-900 transition-all ease-in-out cursor-pointer'>
+    <div className='border-t-[0.3px] border-gray-600 py-3 px-6   transition-all ease-in-out cursor-pointer'>
       <div className='grid grid-cols-12 gap-3'>
         <div className='col-span-1'>
           <Image
@@ -24,16 +24,17 @@ const FeedCard: React.FC = () => {
             fantastic refresher on key concepts Check out the repository below.
           </p>
           <div className='flex justify-between mt-5 text-xl mr-6'>
-            <div>
+            <div className='hover:bg-sky-300/40 hover:text-blue-500 p-2 rounded-full cursor-pointer transition-all ease-in'>
               <BiMessageRounded />
             </div>
-            <div>
+            <div className='hover:bg-green-300/40 hover:text-green-500 p-2 rounded-full cursor-pointer transition-all ease-in'>
               <FaRetweet />
             </div>
-            <div>
+            <div className='hover:bg-pink-400/40 hover:text-red-500 p-2 rounded-full cursor-pointer transition-all ease-in'>
               <AiOutlineHeart />
             </div>
-            <div>
+
+            <div className=' p-2 rounded-full hover:bg-sky-300/40 hover:text-blue-500 cursor-pointer transition-all ease-in'>
               <BiUpload />
             </div>
           </div>
@@ -44,3 +45,6 @@ const FeedCard: React.FC = () => {
 };
 
 export default FeedCard;
+// how to set background color opacity in tailwindcss:
+// https://tailwindcss.com/docs/background-opacity
+//show me
