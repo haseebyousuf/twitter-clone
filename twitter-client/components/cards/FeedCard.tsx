@@ -23,7 +23,7 @@ const FeedCard: React.FC = () => {
             Week 4 - 6 assignments done!. Diving into the frontend was a
             fantastic refresher on key concepts Check out the repository below.
           </p>
-          <div className='flex justify-between mt-5 text-xl '>
+          <div className='flex justify-between mt-5 text-xl mr-6'>
             <div>
               <BiMessageRounded />
             </div>
