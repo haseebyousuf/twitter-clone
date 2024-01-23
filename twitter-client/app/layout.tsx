@@ -20,6 +20,7 @@ export const metadata: Metadata = {
   },
 };
 import { GoogleOAuthProvider } from '@react-oauth/google';
+import { Toaster } from 'react-hot-toast';
 
 export default function RootLayout({
   children,
@@ -38,6 +39,7 @@ export default function RootLayout({
             </div>
             <RightSidebar />
           </div>
+          <Toaster />
         </GoogleOAuthProvider>
       </body>
     </html>
